@@ -55,13 +55,15 @@ z-index: 2;
 
 .header__main-illustration {
   position: absolute;
+  background-image: url("../images/header-image.png");
+  background-size: cover;
   bottom: 0;
   right: 0;
   width: 765px;
   height: 608px;
   z-index: 1;
 }
-.header__square-pic {
+.header__square {
   height: 568px;
   width: 568px;
   position: absolute;
@@ -166,6 +168,9 @@ z-index: 2;
 
 .about-feynman {
 background-color: #f2f2f2;
+background-image: url("../images/feynman.png");
+background-repeat: no-repeat;
+background-position: left bottom;
 height: 890px;
 position: relative;
 }
@@ -179,15 +184,6 @@ position: relative;
   font-weight: 600;
   position: relative;
   z-index: 2;
-}
-
-.about-feynman__image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 637px;
-  width: 876px;
-  z-index: 1;
 }
 
 .about-feynman__subtitle {
