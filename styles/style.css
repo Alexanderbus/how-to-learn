@@ -64,7 +64,7 @@ z-index: 2;
 .header__subtitle {
   max-width: 388px;
   font-size: 18px;
-  line-weight: 25px;
+  line-height: 25px;
   font-weight: normal;
   position: absolute;
   bottom: 30px;
