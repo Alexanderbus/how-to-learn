@@ -1,20 +1,11 @@
-/* * {
+ * {
   border: 1px solid red;
-} */
-
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-ul,
-ol,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
+.ul,
+.paragraph,
+.title
+{
   margin: 0;
 }
 
@@ -25,8 +16,11 @@ h6{
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
+
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   /* выше для экранов больше 1600px отцентрировали весь контент */
 }
+
 
 .header {
   height: 100vh;
@@ -99,7 +93,7 @@ z-index: 2;
 }
 
 .two-columns {
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
   width: 80%;
   display: flex;
   align-items: center;
@@ -135,7 +129,7 @@ z-index: 2;
 }
 
 
-.main-text__paragraph__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -146,7 +140,7 @@ z-index: 2;
   line-height: 1.15;
   font-weight: 600;
   width: 60%;
-  margin: 0 auto;
+  margin: 90px auto auto auto;
   text-align: center;
   z-index: 2;
 }
@@ -193,7 +187,6 @@ z-index: 2;
 background-color: #f2f2f2;
 min-height: 890px;
 position: relative;
-padding-top: 100px;
 }
 
 .feynman__img {
@@ -213,6 +206,7 @@ padding-top: 100px;
   font-size: 120px;
   font-weight: 600;
   position: relative;
+  margin-top: 100px;
   z-index: 2;
 }
 
@@ -241,7 +235,6 @@ padding-top: 100px;
 
 .kaufman {
   background-color: #1f1f1f;
-  padding-top: 90px;
   overflow: hidden;
   position: relative;
 }
@@ -262,7 +255,7 @@ padding-top: 100px;
   position: relative;
 }
 
-.table_cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -273,6 +266,7 @@ padding-top: 100px;
 .kaufman__triangle {
   background-image: url("../images/kaufman-triangle.svg");
   position: absolute;
+  background-size: cover;
   width: 877px;
   height: 877px;
   top: 0;
@@ -296,11 +290,13 @@ padding-top: 100px;
   min-height: 250px;
   margin: auto;
   justify-content: space-between;
-
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -313,8 +309,7 @@ padding-top: 100px;
   font-size: 18px;
   font-weight: normal;
   display: inline-block;
-  margin-top: 200px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .footer__column-heading {
@@ -342,5 +337,6 @@ padding-left: 0;
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+  margin-top: auto;
+
 }
