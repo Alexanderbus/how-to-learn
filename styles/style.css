@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -186,7 +187,8 @@ position: relative;
 
 .feynman__title {
   width: 648px;
-  margin: 100px auto 70px auto;
+  padding-top: 100px;
+  margin: 0 auto 70px auto; /* Я не знаю почему, но у меня ничего не выпадает, прикладываю скрин https://ibb.co/7zv3psx */
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -227,6 +229,7 @@ position: relative;
   color: white;
   z-index: 2;
   position: relative;
+  margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
