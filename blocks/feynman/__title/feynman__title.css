@@ -1,0 +1,11 @@
+.feynman__title {
+    width: 648px;
+    padding-top: 100px;
+    margin: 0 auto 70px auto; /* Я не знаю почему, но у меня ничего не выпадает, прикладываю скрин https://ibb.co/7zv3psx */
+    text-align: center;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+  }
