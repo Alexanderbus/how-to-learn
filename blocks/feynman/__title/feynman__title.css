@@ -1,5 +1,5 @@
 .feynman__title {
-    width: 648px;
+    max-width: 648px;
     padding-top: 100px;
     margin: 0 auto 70px auto; /* Я не знаю почему, но у меня ничего не выпадает, прикладываю скрин https://ibb.co/7zv3psx */
     text-align: center;
